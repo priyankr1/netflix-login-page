@@ -1,0 +1,586 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.firsM {
+    margin: 0;
+    background-image: url('https://isquad.tv/wp-content/uploads/2018/08/Netflix-Background.jpg');
+    background-size: cover;
+    filter: brightness(80%);
+    overflow-x: hidden;
+    background-repeat: none;
+    height: 100vh;
+    width: 100vw;
+    box-shadow:
+        inset 20px 20px 400px 40px #050505,
+        inset -10px -56px 700px 30px #050505,
+        inset -4px 20px 400px 30px #0d0d0d;
+    ;
+}
+
+.default-ltr-cache-1d568uk {
+    position: relative;
+    top: 2vh;
+    left: 12vw;
+    height: 10vh;
+    width: 10vw;
+    fill: rgb(255, 10, 22);
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: grid;
+    position: absolute;
+    place-items: center;
+    top: 40%;
+    left: 17%;
+    color: rgb(255, 244, 244);
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    font-size: 1.7rem;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size:1.3rem;
+    font-weight: 100;
+}
+
+select {
+    height: 5vh;
+    width: 10vw;
+    color: white;
+    background: transparent;
+    font-size: 17px;
+    outline: 1px solid white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.language1 {
+    position: absolute;
+    top: 4vh;
+    right: 20vw;
+}
+
+.botton {
+    position: absolute;
+    top: 4vh;
+    right: 13vw;
+    height: 5vh;
+    width: 5vw;
+    font-size: 1rem;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 7px;
+}
+
+.form {
+    padding: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12vw;
+}
+
+.main {
+    background: transparent;
+    font-size: 0.5rem;
+    width: 20vw;
+    font-family: "Roboto", sans-serif;
+}
+
+#Email::placeholder {
+    color: rgb(177, 174, 174);
+    align-content: center;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.button1 {
+    color: white;
+    background: red;
+    height: 8vh;
+    width: 13vw;
+    border: 2px solid red;
+    border-radius: 7px;
+    font-size: 1.5rem;
+}
+
+#Email {
+    width: 30vw;
+    height: 6vh;
+    font-size: 25px;
+    padding: 5px 10px;
+    background: transparent;
+
+}
+/*second main*/
+.secondM {
+    position: relative;
+    width: 100vw;
+    height: 75vh;
+    background: rgb(0, 0, 0);
+    border-top: 1vh solid #232323;
+    border-bottom: 1vh solid #232323;
+    font-family: sans-serif;
+}
+.img {
+    position: absolute;
+    right: 10vw;
+    height: 55vh;
+    width: 35vw;
+}
+.vidio1 {
+    position: relative;
+    left: 59.6vw;
+    height: 52.5vh;
+    width: 25.3vw;
+}
+.text {
+    position: absolute;
+    top: 20vh;
+    left: 15vw;
+    font-family: sans-serif;
+    display: grid;
+    color: white;
+}
+h2 {
+    display: inline-block;
+}
+/*third main*/
+.thirdM {
+    height: 75vh;
+    width: 100vw;
+    border-right: 1vh solid #232323;
+    border-top: 1vh solid #232323;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+    font-family: sans-serif;
+}
+.img1 {
+    position: relative;
+    top: 10vh;
+    left: 12vw;
+    height: 50vh;
+    width: 37vw;
+}
+.box1 {
+    display: inline-block;
+    position: relative;
+    left: 20vw;
+    height: 13vh;
+    width: 21vw;
+    background-color: #000;
+    border:2px solid grey;
+    border-radius: 7px;
+}
+.imgaa {
+    position: absolute;
+    top: 1vh;
+    bottom: 11vh;
+    left: 2vh;
+    min-height: 1vh;
+}
+.tex {
+    position: inherit;
+    top: 4vh;
+    left: 15vh;
+    color: rgb(226, 226, 239);
+}
+.con1 {
+    color: blue;
+}
+.download {
+    position: inherit;
+    left: 10vw;
+    bottom: 5vh;
+    width: 3rem;
+    height: 3rem;
+    outline: 2px solid rgb(0, 0, 0);
+    outline-offset: -2px;
+    display: block;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+    background-size: 100%;
+}
+.text2 {
+    position:relative;
+    width: 30vw;
+    left: 10vw;
+    top: 3vh;
+    color:white;
+    display: inline-block;
+}
+article {
+    font-size: 1.5rem;
+}
+/*fourth main*/
+.fourthM {
+    position: relative;
+    height: 75vh;
+    width: 100vw;
+    overflow: hidden;
+    background: #000;
+    border-top: 1vh solid #232323;
+    border-bottom: 1vh solid #232323;
+    font-family: sans-serif;
+    color: white;
+}
+.text3 {
+    position: absolute;
+    width: 40vw;
+    bottom: 30vh;
+    left: 8vw;
+}
+.con2 {
+    font-size: 1.5rem;
+}
+.img3 {
+    height: 55vh;
+    width: 35vw;
+    position: absolute;
+    top: 5vh;
+    left: 50vw;
+}
+.video2 {
+    position: relative;
+    top: 5vh;
+    left: 56vw;
+    height: 35vh;
+    width: 22vw;
+}
+/*fifth main*/
+.fifthM {
+    position: relative;
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    overflow: hidden;
+    border-top: 1vh solid #232323;
+    border-bottom: 1vh solid #232323;
+    background: #000;
+    color: white;
+    font-family: sans-serif;
+}
+.childimg {
+    position: relative;
+    top: 10vh;
+    left: 7vw;
+    width: 40vw;
+}
+.text4 {
+    display: grid;
+    position: relative;
+    left: 50vw;
+    bottom: 40vh;
+    width: 37vw;
+}
+/*sixth main*/
+.sixthM {
+    position: relative;
+    height: 130vh;
+    width: 100vw;
+    background: #000;
+    color: white;
+    border-top: 1vh solid #232323;
+    border-bottom: 1vh solid #232323;
+    font-family: sans-serif;
+}
+.sixthM h1 {
+    padding: 6vh;
+    display: flex;
+    justify-content: center;
+}
+.maindiv {
+    position: relative;
+    display: grid;
+    height: 80vh;
+    width: 75vw;
+    left: 13vw;
+    overflow: hidden;
+}
+.maindiv button {
+    padding-left: 1vw;
+    background: #2d2d2d;
+    color: white;
+    display: grid;
+    justify-content: left;
+    align-items: center;
+    width: 75vw;
+    height: 12vh;
+    font-size: 1.5rem;
+    border: none;
+}
+/*seventh main*/
+.seventhM {
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    background: #000;
+    border-top: 1vh #232323;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+.maindiv2 {
+    position: relative;
+    top: 10vh;
+    left: 10vw;
+    column-gap: 7vw;
+    color: #ada8a8;
+    display: flex;
+}
+ul {
+    list-style-type: none;
+    text-decoration: underline;
+}
+li{
+    font-size:0.9rem;
+    padding-bottom: 3vh;
+}
+@media only screen and (max-width:767px) {
+    .firsM {
+        filter: brightness(100%);
+        background-image:url('https://assets.nflxext.com/ffe/siteui/vlv3/32c47234-8398-4a4f-a6b5-6803881d38bf/eed3a573-8db7-47ca-a2ce-b511e0350439/IN-en-20240122-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+       background-image:contain;
+        height: 80vh;
+        width: 100vw;
+        box-shadow:
+        inset 0px 20px 50px 5px #050505,
+         inset -5px -14px 100px 20px #050505, 
+         inset 0px -150px 900px 30px #0d0d0d;
+    }
+
+    .default-ltr-cache-1d568uk {
+        top: 0.5px;
+        left: 5vw;
+        width: 30vw;
+    }
+
+    select {
+        height: 4.5vh;
+        width: 15vw;
+        background: #202020;
+        font-size: 10px;
+        border-radius: 3px;
+    }
+    .language1{
+        top:3vh;
+        right: 27vw;
+    }
+    .botton {
+        top: 3vh;
+        right: 8vw;
+        height: 4.5vh;
+        width: 17vw;
+        font-size:12px;
+        border-radius: 3px;
+    }
+    .box {
+        align-items: start;
+        width: 90vw;
+        top: 25%;
+        left: 3%;
+        color: rgb(255,255,255);
+    }
+    h1 {
+        font-size: 2rem;
+        font-weight:650;
+        text-align: center;
+    }
+    h2 {
+        font-weight: 100;
+        font-size:20px;
+    }
+    p {
+        line-height: 4vh;
+        width: 60vw;
+        text-align: center;
+        font-size:18px;
+        font-weight: 200;
+    } 
+    .form{
+        display: grid;
+    } 
+    .main {
+        background: transparent;
+        font-size: 0.5rem;
+        width: 78vw;
+    }
+    #Email{
+        width: 75vw;
+        height: 6vh;
+    }
+    .button1 {
+        position: relative;
+        left: 22vw;
+        bottom: 5vh;
+        height: 7.5vh;
+        width: 43vw;
+        font-size: 1rem;
+        border-radius: 3px;
+    }
+    .secondM{
+        position: relative;
+        height: 65vh;
+        background-repeat:none ;
+    }
+    .text h1{
+        padding-bottom: 3vh;
+    }
+    .text h2{
+        font-size: 1rem;
+    }
+    .text {
+        top: 7vh;
+        left:4vw;
+        right:4vw;
+        text-align: center;
+        line-height: 3vh;
+    }
+    .img {
+        position: absolute;
+        top: 25vh;
+        left: 10vw;
+        height: 40vh;
+        width: 80vw;
+    }
+    .vidio1 {
+        position: absolute;
+        left: 25vw;
+        height:88vh;
+        width: 65vw;
+    }
+    .thirdM {
+        position: relative;
+        height: 80vh;
+        width: 100vw;
+    }
+    .img1 {
+        top: 30vh;
+        left: 10vw;
+        height: 30vh;
+        width:300px;
+    }
+    .tex {
+        top: 2vh;
+        left: 10vh;
+        font-size: 0.8rem;
+    }
+    .text2 {
+        position:absolute;
+        text-align: center;
+        top: 4vh;
+        left: 15vw;
+        width:70vw;
+        color: #f7f3f3;
+    }
+    article {
+        font-size: 1.1rem;
+    }
+    .box1{
+        position: relative;
+        top: 30vh;
+        height: 8vh;
+        width: 62vw;
+        border: 2px solid grey;
+        border-radius: 7px;
+    }
+    .imgaa{
+        height: 7vh;
+        width: 10vw;
+        left: 1vw;
+    }
+    .download{
+        bottom: 4vh;
+        left: 30vw;
+        height: 30px;
+        width: 30px;
+        background-image: contain;
+    }
+    .fourthM{
+        height: 65vh;
+    }
+    .text3{
+        top: 8vh;
+        width: 80vw;
+        left: 12vw;
+    }
+    .con2{
+        line-height: none;
+        font-size: 1rem;
+        width:80vw;
+    }
+    .img3{
+        top: 25vh;
+        left: 11vw;
+        height: 35vh;
+        width: 80vw;
+    }
+    .video2{
+        top: 30vh;
+        left: 14vh;
+        height: 20vh;
+        width: 52vw;
+    }
+    .childimg{
+        top: 30vh;
+        height: 35vh;
+        width: 80vw;
+    }
+    .text4 {
+        line-height: none;
+        bottom: 30vh;
+        left: 8vw;
+        width: 80vw;
+    } 
+    .text4 p{
+        line-height:3vh;
+        font-size: 1.0rem;
+        width: 80vw;
+    }
+    .sixthM h1{
+        padding: 4vh;
+    }
+    .maindiv {
+        height: 70vh;
+        width: 100vw;
+        left: 3vw;
+    }
+    .maindiv button{
+        height: 10vh;
+        width: 90vw;
+        font-size: 1.1rem;
+        justify-content:center;
+    }
+    .sixthM p{
+        position: relative;
+        left: 20vw;
+    }
+    .maindiv2 {
+        top: 10vh;
+        left: 10vw;
+        column-gap: 4vw;
+        display:flex;
+    }
+}
